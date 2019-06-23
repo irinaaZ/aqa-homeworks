@@ -20,13 +20,10 @@ public class RegistrationPage {
     private By firstNameYourPersonalInfo = By.id("customer_firstname");
     private By lastNameYourPersonalInfo = By.id("customer_lastname");
     private By passwordYourPersonalInfo = By.id("passwd");
-//    private By firstNameYourAddress = By.id("firstname");
-//    private By lastNameYourAddress = By.id("lastname");
     private By addressYourAddress = By.id("address1");
     private By cityYourAddress = By.id("city");
     private By zipYourAddress = By.id("postcode");
     private By mobilePhoneYourAddress = By.id("phone_mobile");
-//    private By addressAliasYourAddress = By.id("alias");
     private By registerButton = By.id("submitAccount");
     private By errorsAlert = By.xpath("//*[@id=\"center_column\"]/div/p");
     private By countryDropDownYourAddress = By.id("id_country");
