@@ -75,7 +75,7 @@ public class RegistrationPage {
     }
 
     public boolean isErrorAlertPresented(){
-        return this.driver.findElement(errorsAlert).isDisplayed();
+        return this.driver.findElement(errorsAlert).getText().contains("There are 3 errors");
     }
 }
 
